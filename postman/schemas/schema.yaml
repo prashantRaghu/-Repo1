@@ -1,9 +1,9 @@
 openapi: 3.0.0
 info:
-  version: 'v1'
-  title: '-Repo1ss'
+  version: 'vswss1'
+  title: '-Repso1ss'
 servers:
-  - url: 'localhost:3000'
+  - url: 'loscalhost:3000'
 paths:
   /user:
     get:
