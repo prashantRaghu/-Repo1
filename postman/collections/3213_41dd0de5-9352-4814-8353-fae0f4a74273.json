@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "829b9627-1771-4156-b629-98d0cb936b97",
+		"name": "3213",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sample endpoint: Returns details about a particulars",
+			"id": "8ed61b9e-9d35-4c19-9efd-6effe5eb5813",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/user?id=-61768317",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "-61768317",
+							"description": "(Required) ID of the users"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "e83aa8aa-252e-40a5-aaac-300227bd0494",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=-61768317",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-61768317"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "ea in minim officia"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"id\": 43730928,\n  \"name\": \"incididunt non\",\n  \"tag\": \"do esse\"\n}"
+				},
+				{
+					"id": "3fd9eab4-1392-4665-8dad-51e48faffbcb",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=-61768317",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-61768317"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"code\": -75804351,\n  \"message\": \"eu nisi\"\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "9f78b7da-1011-4c9c-bca0-29213675db28",
+			"key": "baseUrl",
+			"value": "loscalhost:3000",
+			"type": "string"
+		}
+	]
+}
