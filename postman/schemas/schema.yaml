@@ -3,11 +3,11 @@ info:
   version: 'vswss1'
   title: '-Repso1ss'
 servers:
-  - url: 'loscalhost:30000'
+  - url: 'loscalhost:'
 paths:
   /user:
     get:
-      summary: 'Sample endpoint: Returns details about a part'
+      summary: 'Sample endpoint: Returns details about a particulars'
       operationId: listUser
       tags:
         - user
