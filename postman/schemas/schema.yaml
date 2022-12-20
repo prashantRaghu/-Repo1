@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  version: 'vswss1'
+  version: 'vswss1ssss'
   title: '-Repso1ss'
 servers:
   - url: 'loscalhost:3000'
