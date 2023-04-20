@@ -1,13 +1,14 @@
 {
 	"info": {
-		"_postman_id": "829b9627-1771-4156-b629-98d0cb936b97",
+		"_postman_id": "d1918513-8def-4a8d-becb-6da47fcc9956",
 		"name": "32132313",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "539613-d1918513-8def-4a8d-becb-6da47fcc9956"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particulars",
-			"id": "8ed61b9e-9d35-4c19-9efd-6effe5eb5813",
+			"id": "28a35228-697a-4e5e-a9eb-1aa439d6be3f",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -35,7 +36,7 @@
 			},
 			"response": [
 				{
-					"id": "e83aa8aa-252e-40a5-aaac-300227bd0494",
+					"id": "6afd0006-62db-4cd5-866e-5e72e133cd7f",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -65,6 +66,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -82,7 +84,7 @@
 					"body": "{\n  \"id\": 43730928,\n  \"name\": \"incididunt non\",\n  \"tag\": \"do esse\"\n}"
 				},
 				{
-					"id": "3fd9eab4-1392-4665-8dad-51e48faffbcb",
+					"id": "7cc0c3f4-5d24-4d52-a704-7082784e670c",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -112,6 +114,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",

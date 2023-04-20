@@ -1,8 +1,9 @@
 {
-    "info": {
-        "_postman_id": "ac2a3a31-0c96-4c40-b096-3769d7bb224c",
-        "name": "Link as rel-",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-    },
-    "item": []
+	"info": {
+		"_postman_id": "1dad0fb9-de83-4473-b7c1-f9e377b3fd7b",
+		"name": "Link as rel-",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "539613-1dad0fb9-de83-4473-b7c1-f9e377b3fd7b"
+	},
+	"item": []
 }
